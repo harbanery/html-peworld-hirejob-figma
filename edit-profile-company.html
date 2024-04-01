@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Profile (Perusahaan)</title>
+    <!-- Icon Title -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/icon-logo.png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="" class="navbar-logo"
+          ><img src="./assets/img/header-logo.png" alt="header-logo"
+        /></a>
+
+        <div class="navbar-profile">
+          <a id="notification" class="icons" href="#"
+            ><img src="./assets/img/icons/bell.png"
+          /></a>
+          <a id="mail" class="icons" href="#"
+            ><img src="./assets/img/icons/mail.png"
+          /></a>
+
+          <a id="user-profile" class="user-icons" href="#"
+            ><img src="./assets/img/profile-img/user-profile.png"
+          /></a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="bg-profile-alt">
+      <div class="container-profile">
+        <aside id="biodata">
+          <div class="profile-home">
+            <div class="profile-home-img">
+              <img src="./assets/img/profile-img/user-1.png" alt="User-1" />
+            </div>
+            <div class="profile-home-edit text-with-icons edit">
+              <img src="./assets/img/icons/edit.png" />
+              <span>Edit</span>
+            </div>
+            <h1 class="profile-home-h1">PT. Martabat Jaya Abadi</h1>
+            <h2 class="profile-home-h2">Financial</h2>
+            <div class="text-with-icons map">
+              <img src="./assets/img/icons/map.png" />
+              <span>Purwokerto, Jawa Tengah</span>
+            </div>
+          </div>
+          <a class="btn-profile" href="">Simpan</a>
+          <a class="btn-profile-sec" href="">Batal</a>
+        </aside>
+
+        <!-- tailwind css -->
+        <article id="data-input" class="w-2/3 basis-auto">
+          <section
+            id="biodata"
+            class="card w-full rounded-lg py-4 mb-[30px] bg-white"
+          >
+            <div
+              class="card-header border-b border-[#C4C4C4] px-9 py-[18px] font-semibold text-[22px]"
+            >
+              <h1>Data diri</h1>
+            </div>
+            <div class="card-main py-4 px-9">
+              <div class="input-card py-4 flex flex-col gap-1">
+                <span class="font-normal text-xs basis-auto"
+                  >Nama Perusahaan</span
+                >
+                <input
+                  class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                  type="text"
+                  name="companyName"
+                  placeholder="Masukan nama perusahan"
+                />
+              </div>
+              <div class="input-card py-4 flex flex-col gap-1">
+                <span class="font-normal text-xs basis-auto">Bidang</span>
+                <input
+                  class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                  type="text"
+                  name="jobField"
+                  placeholder="Masukan bidang perusahaan ex : Financial"
+                />
+              </div>
+              <div class="input-card py-4 flex flex-col gap-1">
+                <span class="font-normal text-xs basis-auto">Kota</span>
+                <input
+                  class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                  type="text"
+                  name="city"
+                  placeholder="Masukan kota"
+                />
+              </div>
+              <div class="input-textarea-card py-4 flex flex-col gap-1">
+                <span class="font-normal text-xs basis-auto"
+                  >Deskripsi singkat</span
+                >
+                <textarea
+                  class="basis-auto rounded border border-[#E2E5ED] p-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                  name="descShort"
+                  cols="30"
+                  rows="6"
+                  placeholder="Tuliskan deskripsi singkat"
+                ></textarea>
+              </div>
+              <div class="input-card py-4 flex flex-col gap-1">
+                <span class="font-normal text-xs basis-auto">Email</span>
+                <input
+                  class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                  type="text"
+                  name="email"
+                  placeholder="Masukan email"
+                />
+              </div>
+              <div class="input-card py-4 flex flex-col gap-1">
+                <span class="font-normal text-xs basis-auto">Instagram</span>
+                <input
+                  class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                  type="text"
+                  name="instagram"
+                  placeholder="Masukan nama Instagram"
+                />
+              </div>
+              <div class="input-card py-4 flex flex-col gap-1">
+                <span class="font-normal text-xs basis-auto"
+                  >Nomor Telepon</span
+                >
+                <input
+                  class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                  type="text"
+                  name="phone"
+                  placeholder="Masukan nomor telepon"
+                />
+              </div>
+              <div class="input-card py-4 flex flex-col gap-1">
+                <span class="font-normal text-xs basis-auto">Linkedin</span>
+                <input
+                  class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                  type="text"
+                  name="linkedIn"
+                  placeholder="Masukan nama Linkedin"
+                />
+              </div>
+            </div>
+          </section>
+        </article>
+        <!-- tailwind css end -->
+      </div>
+    </main>
+
+    <footer>
+      <div>
+        <img src="./assets/img/header-logo-white.png" alt="footer-logo" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod
+          ipsum et dui rhoncus auctor.
+        </p>
+      </div>
+      <div class="footer-flex">
+        <h6>2020 Pewworld. All right reserved</h6>
+
+        <div class="footer-flex-contact">
+          <a href="">Telepon</a>
+          <a href="">Email</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

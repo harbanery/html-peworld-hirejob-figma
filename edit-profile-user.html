@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Profile (Pekerja)</title>
+    <!-- Icon Title -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/icon-logo.png" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="" class="navbar-logo"
+          ><img src="./assets/img/header-logo.png" alt="header-logo"
+        /></a>
+
+        <div class="navbar-profile">
+          <a id="notification" class="icons" href="#"
+            ><img src="./assets/img/icons/bell.png"
+          /></a>
+          <a id="mail" class="icons" href="#"
+            ><img src="./assets/img/icons/mail.png"
+          /></a>
+
+          <a id="user-profile" class="user-icons" href="#"
+            ><img src="./assets/img/profile-img/user-profile.png"
+          /></a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="bg-profile-alt">
+      <div class="container-profile">
+        <aside id="biodata">
+          <div class="profile-home">
+            <div class="profile-home-img">
+              <img src="./assets/img/profile-img/user-1.png" alt="User-1" />
+            </div>
+            <div class="profile-home-edit text-with-icons edit">
+              <img src="./assets/img/icons/edit.png" />
+              <span>Edit</span>
+            </div>
+            <h1 class="profile-home-h1">Louis Tomlinson</h1>
+            <h2 class="profile-home-h2">Web Developer</h2>
+            <div class="text-with-icons map">
+              <img src="./assets/img/icons/map.png" />
+              <span>Purwokerto, Jawa Tengah</span>
+            </div>
+            <h3 class="profile-home-h3">Freelancer</h3>
+          </div>
+          <a class="btn-profile" href="">Simpan</a>
+          <a class="btn-profile-sec" href="">Batal</a>
+        </aside>
+
+        <!-- tailwind css -->
+        <article id="data-input" class="w-2/3 basis-auto">
+          <section
+            id="biodata"
+            class="card w-full rounded-lg py-4 mb-[30px] bg-white"
+          >
+            <div
+              class="card-header border-b border-[#C4C4C4] px-9 py-[18px] font-semibold text-[22px]"
+            >
+              <h1>Data diri</h1>
+            </div>
+            <div class="card-main py-4 px-9">
+              <div class="input-card py-4 flex flex-col gap-1">
+                <span class="font-normal text-xs basis-auto">Nama lengkap</span>
+                <input
+                  class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                  type="text"
+                  name="fullname"
+                  placeholder="Masukan nama lengkap"
+                />
+              </div>
+              <div class="input-card py-4 flex flex-col gap-1">
+                <span class="font-normal text-xs basis-auto">Job Desk</span>
+                <input
+                  class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                  type="text"
+                  name="job"
+                  placeholder="Masukan job desk"
+                />
+              </div>
+              <div class="input-card py-4 flex flex-col gap-1">
+                <span class="font-normal text-xs basis-auto">Domisili</span>
+                <input
+                  class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                  type="text"
+                  name="domicile"
+                  placeholder="Masukan domisili"
+                />
+              </div>
+              <div class="input-card py-4 flex flex-col gap-1">
+                <span class="font-normal text-xs basis-auto">Tempat kerja</span>
+                <input
+                  class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                  type="text"
+                  name="office"
+                  placeholder="Masukan tempat kerja"
+                />
+              </div>
+              <div class="input-textarea-card py-4 flex flex-col gap-1">
+                <span class="font-normal text-xs basis-auto"
+                  >Deskripsi singkat</span
+                >
+                <textarea
+                  class="basis-auto rounded border border-[#E2E5ED] p-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                  name="descShort"
+                  cols="30"
+                  rows="6"
+                  placeholder="Tuliskan deskripsi singkat"
+                ></textarea>
+              </div>
+            </div>
+          </section>
+          <section
+            id="skill"
+            class="card w-full rounded-lg py-4 mb-[30px] bg-white"
+          >
+            <div
+              class="card-header border-b border-[#C4C4C4] px-9 py-[18px] font-semibold text-[22px]"
+            >
+              <h1>Skill</h1>
+            </div>
+            <div class="card-main py-4 px-9">
+              <div
+                class="input-card-with-button py-4 flex justify-between gap-[30px]"
+              >
+                <input
+                  class="basis-auto rounded border border-[#E2E5ED] w-full h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                  type="text"
+                  name="skillName"
+                  placeholder="Java"
+                />
+                <button
+                  class="basis-auto p-[13.5px] font-bold text-sm h-[50px] rounded text-white"
+                >
+                  Simpan
+                </button>
+              </div>
+            </div>
+          </section>
+
+          <section
+            id="work-experience"
+            class="card w-full rounded-lg py-4 mb-[30px] bg-white"
+          >
+            <div
+              class="card-header border-b border-[#C4C4C4] px-9 py-[18px] font-semibold text-[22px]"
+            >
+              <h1>Pengalaman kerja</h1>
+            </div>
+            <div class="card-main py-4 px-9">
+              <div class="input-card py-4 flex flex-col gap-1">
+                <span class="font-normal text-xs basis-auto">Posisi</span>
+                <input
+                  class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                  type="text"
+                  name="position"
+                  placeholder="web developer"
+                />
+              </div>
+              <div class="input-card-multiple py-4 flex justify-between gap-5">
+                <div class="flex flex-col gap-1 basis-auto w-full">
+                  <span class="font-normal text-xs basis-auto"
+                    >Nama perusahaan</span
+                  >
+                  <input
+                    class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                    type="text"
+                    name="companyName"
+                    placeholder="PT Harus bisa"
+                  />
+                </div>
+                <div class="flex flex-col gap-1 basis-auto w-full">
+                  <span class="font-normal text-xs basis-auto"
+                    >Bulan/tahun</span
+                  >
+                  <input
+                    class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                    type="text"
+                    name="companyDate"
+                    placeholder="Januari 2018"
+                  />
+                </div>
+              </div>
+              <div class="input-textarea-card pt-4 pb-12 flex flex-col gap-1">
+                <span class="font-normal text-xs basis-auto"
+                  >Deskripsi singkat</span
+                >
+                <textarea
+                  class="basis-auto rounded border border-[#E2E5ED] p-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                  name="descJobShort"
+                  cols="30"
+                  rows="6"
+                  placeholder="Deskripsikan pekerjaan anda"
+                ></textarea>
+              </div>
+              <div class="card-subfooter pt-12 pb-4 border-t">
+                <button
+                  class="font-bold text-base text-[#fbb017] w-full h-[50px] border border-[#fbb017] rounded"
+                >
+                  Tambah pengalaman kerja
+                </button>
+              </div>
+            </div>
+          </section>
+
+          <section
+            id="portofolio-file"
+            class="card w-full rounded-lg py-4 mb-[30px] bg-white"
+          >
+            <div
+              class="card-header border-b border-[#C4C4C4] px-9 py-[18px] font-semibold text-[22px]"
+            >
+              <h1>Portofolio</h1>
+            </div>
+            <div class="card-main py-4 px-9">
+              <div class="input-card py-4 flex flex-col gap-1">
+                <span class="font-normal text-xs basis-auto"
+                  >Nama Aplikasi</span
+                >
+                <input
+                  class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                  type="text"
+                  name="appName"
+                  placeholder="Masukan nama aplikasi"
+                />
+              </div>
+              <div class="input-card py-4 flex flex-col gap-1">
+                <span class="font-normal text-xs basis-auto"
+                  >Link repository</span
+                >
+                <input
+                  class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
+                  type="text"
+                  name="linkFile"
+                  placeholder="Masukan link repository"
+                />
+              </div>
+              <div class="input-radio-card pt-4 pb-12 flex flex-col gap-1">
+                <span class="font-normal text-xs basis-auto"
+                  >Type portofolio</span
+                >
+                <div class="basis-auto flex items-center justify-start gap-1">
+                  <div
+                    class="basis-auto flex items-center justify-center gap-3 border rounded w-1/4 p-[15.5px] h-[50px]"
+                  >
+                    <input
+                      class="basis-auto checked:accent-[#5e50a1]"
+                      type="radio"
+                      name="typeFile"
+                      checked
+                    />
+                    <span
+                      class="basis-auto font-semibold text-sm text-[#1f2a36]"
+                      >Aplikasi mobile</span
+                    >
+                  </div>
+                  <div
+                    class="basis-auto flex items-center justify-center gap-3 rounded w-1/4 p-[15.5px] h-[50px]"
+                  >
+                    <input
+                      class="basis-auto checked:accent-[#5e50a1]"
+                      type="radio"
+                      name="typeFile"
+                    />
+                    <span class="basis-auto font-normal text-sm"
+                      >Aplikasi web</span
+                    >
+                  </div>
+                </div>
+                <div class="input-upload-card py-4 flex flex-col gap-1">
+                  <span class="font-normal text-xs basis-auto"
+                    >Upload gambar</span
+                  >
+                  <label
+                    for="file-upload"
+                    class="custom-upload basis-auto inline-block w-full mt-3 pt-[41px] pb-[72px] cursor-pointer"
+                  >
+                    <div
+                      class="custom-upload-details flex flex-nowrap flex-col align-center justify-center"
+                    >
+                      <div class="flex align-center justify-center">
+                        <img
+                          class="max-w-[114px]"
+                          src="./assets/img/icons/cloud.png"
+                        />
+                      </div>
+                      <span class="flex align-center justify-center text-sm"
+                        >Drag & Drop untuk Upload Gambar Aplikasi Mobile</span
+                      >
+                      <span
+                        class="flex align-center justify-center text-xs mt-3"
+                        >Atau cari untuk mengupload file dari direktorimu.</span
+                      >
+                      <div
+                        class="img-rules flex align-center justify-center gap-1 mt-9 gap-[58px]"
+                      >
+                        <img
+                          class="max-h-8"
+                          src="./assets/img/icons/high-res-img-rules.png"
+                        />
+                        <img
+                          class="max-h-8"
+                          src="./assets/img/icons/size-img-rules.png"
+                        />
+                      </div>
+                    </div>
+                  </label>
+                  <input id="file-upload" type="file" />
+                </div>
+              </div>
+              <div class="card-subfooter pt-12 pb-4 border-t">
+                <button
+                  class="font-bold text-base text-[#fbb017] w-full h-[50px] border border-[#fbb017] rounded"
+                >
+                  Tambah portofolio
+                </button>
+              </div>
+            </div>
+          </section>
+        </article>
+        <!-- tailwind css end -->
+      </div>
+    </main>
+
+    <footer>
+      <div>
+        <img src="./assets/img/header-logo-white.png" alt="footer-logo" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In euismod
+          ipsum et dui rhoncus auctor.
+        </p>
+      </div>
+      <div class="footer-flex">
+        <h6>2020 Pewworld. All right reserved</h6>
+
+        <div class="footer-flex-contact">
+          <a href="">Telepon</a>
+          <a href="">Email</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
