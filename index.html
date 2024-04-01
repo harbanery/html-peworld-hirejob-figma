@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Week 3</title>
+    <!-- Icon Title -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/icon-logo.png" />
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer components {
+        .btn-purple {
+          @apply w-2/5 p-5 rounded font-bold border text-center border-purple-700 bg-purple-600 text-white hover:bg-purple-700 transition duration-200;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div class="container mx-auto">
+        <div
+          class="border rounded absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 w-2/5 mx-auto p-5 flex flex-wrap justify-center items-center gap-10"
+        >
+          <a class="btn-purple" href="landing-page.html">Landing Page</a>
+          <a class="btn-purple" href="home.html">Home</a>
+          <a class="btn-purple" href="login.html">Login</a>
+          <a class="btn-purple" href="profile-portofolio.html"
+            >Portofolio Profile</a
+          >
+          <a class="btn-purple" href="edit-profile-employee.html"
+            >Edit Profile Employee</a
+          >
+          <a class="btn-purple" href="edit-profile-company.html"
+            >Edit Profile Company</a
+          >
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

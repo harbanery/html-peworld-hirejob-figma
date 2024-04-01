@@ -43,8 +43,10 @@
       </nav>
     </header>
 
-    <main class="bg-profile-alt">
-      <div class="container-profile">
+    <main class="bg-profile">
+      <!-- container tailwind -->
+      <div class="container max-w-full container-profile">
+        <!-- container tailwind end -->
         <aside id="biodata">
           <div class="profile-home">
             <div class="profile-home-img">
@@ -62,7 +64,7 @@
             </div>
             <h3 class="profile-home-h3">Freelancer</h3>
           </div>
-          <a class="btn-profile" href="">Simpan</a>
+          <!-- <a class="btn-profile" href="">Simpan</a> -->
           <a class="btn-profile-sec" href="">Batal</a>
         </aside>
 
@@ -70,15 +72,15 @@
         <article id="data-input" class="w-2/3 basis-auto">
           <section
             id="biodata"
-            class="card w-full rounded-lg py-4 mb-[30px] bg-white"
+            class="w-full rounded-lg py-4 mb-[30px] bg-white"
           >
             <div
-              class="card-header border-b border-[#C4C4C4] px-9 py-[18px] font-semibold text-[22px]"
+              class="text-[#1f2a36] border-b border-[#C4C4C4] px-9 py-[18px] font-semibold text-[22px]"
             >
               <h1>Data diri</h1>
             </div>
-            <div class="card-main py-4 px-9">
-              <div class="input-card py-4 flex flex-col gap-1">
+            <div class="text-white py-4 px-9">
+              <div class="py-4 flex flex-col gap-1">
                 <span class="font-normal text-xs basis-auto">Nama lengkap</span>
                 <input
                   class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
@@ -87,7 +89,7 @@
                   placeholder="Masukan nama lengkap"
                 />
               </div>
-              <div class="input-card py-4 flex flex-col gap-1">
+              <div class="py-4 flex flex-col gap-1">
                 <span class="font-normal text-xs basis-auto">Job Desk</span>
                 <input
                   class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
@@ -96,7 +98,7 @@
                   placeholder="Masukan job desk"
                 />
               </div>
-              <div class="input-card py-4 flex flex-col gap-1">
+              <div class="py-4 flex flex-col gap-1">
                 <span class="font-normal text-xs basis-auto">Domisili</span>
                 <input
                   class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
@@ -105,7 +107,7 @@
                   placeholder="Masukan domisili"
                 />
               </div>
-              <div class="input-card py-4 flex flex-col gap-1">
+              <div class="py-4 flex flex-col gap-1">
                 <span class="font-normal text-xs basis-auto">Tempat kerja</span>
                 <input
                   class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
@@ -114,7 +116,7 @@
                   placeholder="Masukan tempat kerja"
                 />
               </div>
-              <div class="input-textarea-card py-4 flex flex-col gap-1">
+              <div class="py-4 flex flex-col gap-1">
                 <span class="font-normal text-xs basis-auto"
                   >Deskripsi singkat</span
                 >
@@ -128,19 +130,14 @@
               </div>
             </div>
           </section>
-          <section
-            id="skill"
-            class="card w-full rounded-lg py-4 mb-[30px] bg-white"
-          >
+          <section id="skill" class="w-full rounded-lg py-4 mb-[30px] bg-white">
             <div
-              class="card-header border-b border-[#C4C4C4] px-9 py-[18px] font-semibold text-[22px]"
+              class="text-[#1f2a36] border-b border-[#C4C4C4] px-9 py-[18px] font-semibold text-[22px]"
             >
               <h1>Skill</h1>
             </div>
-            <div class="card-main py-4 px-9">
-              <div
-                class="input-card-with-button py-4 flex justify-between gap-[30px]"
-              >
+            <div class="text-white py-4 px-9">
+              <div class="py-4 flex justify-between gap-[30px]">
                 <input
                   class="basis-auto rounded border border-[#E2E5ED] w-full h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
                   type="text"
@@ -148,7 +145,7 @@
                   placeholder="Java"
                 />
                 <button
-                  class="basis-auto p-[13.5px] font-bold text-sm h-[50px] rounded text-white"
+                  class="bg-[#fbb017] basis-auto p-[13.5px] font-bold text-sm h-[50px] rounded text-white"
                 >
                   Simpan
                 </button>
@@ -158,15 +155,15 @@
 
           <section
             id="work-experience"
-            class="card w-full rounded-lg py-4 mb-[30px] bg-white"
+            class="w-full rounded-lg py-4 mb-[30px] bg-white"
           >
             <div
-              class="card-header border-b border-[#C4C4C4] px-9 py-[18px] font-semibold text-[22px]"
+              class="text-[#1f2a36] border-b border-[#C4C4C4] px-9 py-[18px] font-semibold text-[22px]"
             >
               <h1>Pengalaman kerja</h1>
             </div>
-            <div class="card-main py-4 px-9">
-              <div class="input-card py-4 flex flex-col gap-1">
+            <div class="text-white py-4 px-9">
+              <div class="py-4 flex flex-col gap-1">
                 <span class="font-normal text-xs basis-auto">Posisi</span>
                 <input
                   class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
@@ -175,7 +172,7 @@
                   placeholder="web developer"
                 />
               </div>
-              <div class="input-card-multiple py-4 flex justify-between gap-5">
+              <div class="-multiple py-4 flex justify-between gap-5">
                 <div class="flex flex-col gap-1 basis-auto w-full">
                   <span class="font-normal text-xs basis-auto"
                     >Nama perusahaan</span
@@ -199,7 +196,7 @@
                   />
                 </div>
               </div>
-              <div class="input-textarea-card pt-4 pb-12 flex flex-col gap-1">
+              <div class="pt-4 pb-12 flex flex-col gap-1">
                 <span class="font-normal text-xs basis-auto"
                   >Deskripsi singkat</span
                 >
@@ -211,7 +208,7 @@
                   placeholder="Deskripsikan pekerjaan anda"
                 ></textarea>
               </div>
-              <div class="card-subfooter pt-12 pb-4 border-t">
+              <div class="pt-12 pb-4 border-t">
                 <button
                   class="font-bold text-base text-[#fbb017] w-full h-[50px] border border-[#fbb017] rounded"
                 >
@@ -223,15 +220,15 @@
 
           <section
             id="portofolio-file"
-            class="card w-full rounded-lg py-4 mb-[30px] bg-white"
+            class="w-full rounded-lg py-4 mb-[30px] bg-white"
           >
             <div
-              class="card-header border-b border-[#C4C4C4] px-9 py-[18px] font-semibold text-[22px]"
+              class="text-[#1f2a36] border-b border-[#C4C4C4] px-9 py-[18px] font-semibold text-[22px]"
             >
               <h1>Portofolio</h1>
             </div>
-            <div class="card-main py-4 px-9">
-              <div class="input-card py-4 flex flex-col gap-1">
+            <div class="text-white py-4 px-9">
+              <div class="py-4 flex flex-col gap-1">
                 <span class="font-normal text-xs basis-auto"
                   >Nama Aplikasi</span
                 >
@@ -242,7 +239,7 @@
                   placeholder="Masukan nama aplikasi"
                 />
               </div>
-              <div class="input-card py-4 flex flex-col gap-1">
+              <div class="py-4 flex flex-col gap-1">
                 <span class="font-normal text-xs basis-auto"
                   >Link repository</span
                 >
@@ -253,7 +250,7 @@
                   placeholder="Masukan link repository"
                 />
               </div>
-              <div class="input-radio-card pt-4 pb-12 flex flex-col gap-1">
+              <div class="pt-4 pb-12 flex flex-col gap-1">
                 <span class="font-normal text-xs basis-auto"
                   >Type portofolio</span
                 >
@@ -280,21 +277,21 @@
                       type="radio"
                       name="typeFile"
                     />
-                    <span class="basis-auto font-normal text-sm"
+                    <span class="text-[#9EA0A5] basis-auto font-normal text-sm"
                       >Aplikasi web</span
                     >
                   </div>
                 </div>
-                <div class="input-upload-card py-4 flex flex-col gap-1">
+                <div class="py-4 flex flex-col gap-1">
                   <span class="font-normal text-xs basis-auto"
                     >Upload gambar</span
                   >
                   <label
                     for="file-upload"
-                    class="custom-upload basis-auto inline-block w-full mt-3 pt-[41px] pb-[72px] cursor-pointer"
+                    class="custom-upload border border-[#9EA0A5] border-dashed basis-auto inline-block w-full mt-3 pt-[41px] pb-[72px] cursor-pointer"
                   >
                     <div
-                      class="custom-upload-details flex flex-nowrap flex-col align-center justify-center"
+                      class="text-[#1f2a36] flex flex-nowrap flex-col align-center justify-center"
                     >
                       <div class="flex align-center justify-center">
                         <img
@@ -310,7 +307,7 @@
                         >Atau cari untuk mengupload file dari direktorimu.</span
                       >
                       <div
-                        class="img-rules flex align-center justify-center gap-1 mt-9 gap-[58px]"
+                        class="img-rules flex align-center justify-center mt-9 gap-[58px]"
                       >
                         <img
                           class="max-h-8"
@@ -323,10 +320,10 @@
                       </div>
                     </div>
                   </label>
-                  <input id="file-upload" type="file" />
+                  <input id="file-upload" type="file" class="file:hidden" />
                 </div>
               </div>
-              <div class="card-subfooter pt-12 pb-4 border-t">
+              <div class="pt-12 pb-4 border-t">
                 <button
                   class="font-bold text-base text-[#fbb017] w-full h-[50px] border border-[#fbb017] rounded"
                 >
@@ -335,6 +332,11 @@
               </div>
             </div>
           </section>
+          <a
+            class="block font-bold text-base w-full h-[50px] text-center py-[15px] text-white bg-[#5e50a1] rounded transition duration-[0.2s] my-[15px]"
+            href=""
+            >Simpan</a
+          >
         </article>
         <!-- tailwind css end -->
       </div>

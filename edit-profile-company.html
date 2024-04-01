@@ -43,8 +43,10 @@
       </nav>
     </header>
 
-    <main class="bg-profile-alt">
-      <div class="container-profile">
+    <main class="bg-profile">
+      <!-- container tailwind -->
+      <div class="container max-w-full container-profile">
+        <!-- container tailwind end -->
         <aside id="biodata">
           <div class="profile-home">
             <div class="profile-home-img">
@@ -61,23 +63,23 @@
               <span>Purwokerto, Jawa Tengah</span>
             </div>
           </div>
-          <a class="btn-profile" href="">Simpan</a>
+          <!-- <a class="btn-profile" href="">Simpan</a> -->
           <a class="btn-profile-sec" href="">Batal</a>
         </aside>
 
         <!-- tailwind css -->
-        <article id="data-input" class="w-2/3 basis-auto">
+        <article id="data-input" class="w-2/3 basis-auto lg:w-4/5 md:w-full">
           <section
             id="biodata"
-            class="card w-full rounded-lg py-4 mb-[30px] bg-white"
+            class="w-full rounded-lg py-4 mb-[30px] bg-white"
           >
             <div
-              class="card-header border-b border-[#C4C4C4] px-9 py-[18px] font-semibold text-[22px]"
+              class="text-[#1f2a36] border-b border-[#C4C4C4] px-9 py-[18px] font-semibold text-[22px]"
             >
               <h1>Data diri</h1>
             </div>
-            <div class="card-main py-4 px-9">
-              <div class="input-card py-4 flex flex-col gap-1">
+            <div class="text-white py-4 px-9">
+              <div class="py-4 flex flex-col gap-1">
                 <span class="font-normal text-xs basis-auto"
                   >Nama Perusahaan</span
                 >
@@ -88,7 +90,7 @@
                   placeholder="Masukan nama perusahan"
                 />
               </div>
-              <div class="input-card py-4 flex flex-col gap-1">
+              <div class="py-4 flex flex-col gap-1">
                 <span class="font-normal text-xs basis-auto">Bidang</span>
                 <input
                   class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
@@ -97,7 +99,7 @@
                   placeholder="Masukan bidang perusahaan ex : Financial"
                 />
               </div>
-              <div class="input-card py-4 flex flex-col gap-1">
+              <div class="py-4 flex flex-col gap-1">
                 <span class="font-normal text-xs basis-auto">Kota</span>
                 <input
                   class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
@@ -106,7 +108,7 @@
                   placeholder="Masukan kota"
                 />
               </div>
-              <div class="input-textarea-card py-4 flex flex-col gap-1">
+              <div class="py-4 flex flex-col gap-1">
                 <span class="font-normal text-xs basis-auto"
                   >Deskripsi singkat</span
                 >
@@ -118,7 +120,7 @@
                   placeholder="Tuliskan deskripsi singkat"
                 ></textarea>
               </div>
-              <div class="input-card py-4 flex flex-col gap-1">
+              <div class="py-4 flex flex-col gap-1">
                 <span class="font-normal text-xs basis-auto">Email</span>
                 <input
                   class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
@@ -127,7 +129,7 @@
                   placeholder="Masukan email"
                 />
               </div>
-              <div class="input-card py-4 flex flex-col gap-1">
+              <div class="py-4 flex flex-col gap-1">
                 <span class="font-normal text-xs basis-auto">Instagram</span>
                 <input
                   class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
@@ -136,7 +138,7 @@
                   placeholder="Masukan nama Instagram"
                 />
               </div>
-              <div class="input-card py-4 flex flex-col gap-1">
+              <div class="py-4 flex flex-col gap-1">
                 <span class="font-normal text-xs basis-auto"
                   >Nomor Telepon</span
                 >
@@ -147,7 +149,7 @@
                   placeholder="Masukan nomor telepon"
                 />
               </div>
-              <div class="input-card py-4 flex flex-col gap-1">
+              <div class="py-4 flex flex-col gap-1">
                 <span class="font-normal text-xs basis-auto">Linkedin</span>
                 <input
                   class="basis-auto rounded border border-[#E2E5ED] h-[50px] px-[15px] font-sans font-normal text-sm placeholder:font-sans placeholder:font-normal placeholder:text-sm"
@@ -158,6 +160,16 @@
               </div>
             </div>
           </section>
+          <a
+            class="block font-bold text-base w-full h-[50px] text-center py-[15px] text-white bg-[#5e50a1] rounded transition duration-200 my-[15px] hover:bg-[#4c4085]"
+            href=""
+            >Simpan</a
+          >
+          <a
+            class="block xl:hidden font-bold text-base w-full h-[50px] text-center py-[15px] text-[#5e50a1] border border-[#5e50a1] rounded transition duration-200 my-[15px] hover:bg-[#5e50a1] hover:text-white"
+            href=""
+            >Batal</a
+          >
         </article>
         <!-- tailwind css end -->
       </div>
