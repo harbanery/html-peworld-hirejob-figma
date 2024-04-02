@@ -8,27 +8,28 @@ There are 6 pages that I working in progress.
 
 1. Landing Page
 
-![Alt landing page](https://drive.google.com/file/d/1Xu6mcCmjVI8DxQz-b2zEGI38zCzfQu8G/view?usp=drive_link)
+![FireShot Capture 036 - Landing Page - 127 0 0 1](https://github.com/harbanery/Portofolio-HireJob_Figma/assets/89146375/242fe456-f2cc-4c27-a13b-189bcee337b9)
 
 2. Login Page
 
-![Alt login page](https://drive.google.com/file/d/1IZ4PulGFUtuzlq6YpAOdZZZNQvK0o1en/view?usp=drive_link)
+![FireShot Capture 038 - Login - portofolio-hire-job-figma vercel app](https://github.com/harbanery/Portofolio-HireJob_Figma/assets/89146375/2326c3b4-d4ab-4e03-a044-4fef94ca654e)
 
 3. Home Page
 
-![Alt home page](https://drive.google.com/file/d/15A84l7ZQMsj7NnvdPxYeASTDO583STPw/view?usp=drive_link)
+![FireShot Capture 037 - Home - portofolio-hire-job-figma vercel app](https://github.com/harbanery/Portofolio-HireJob_Figma/assets/89146375/9a294a62-b480-42f4-aebd-2006d25f5891)
 
 4. Profile Portofolio Page
 
-![Alt portofolio-profile page](https://drive.google.com/file/d/1k0zHbdgek5bviVdzutpSUW5_LuY7wo_e/view?usp=drive_link)
+![FireShot Capture 039 - Profile - Portofolio - portofolio-hire-job-figma vercel app](https://github.com/harbanery/Portofolio-HireJob_Figma/assets/89146375/17a41dd6-b271-4d9f-9fd5-49743dd7eaea)
 
 5. Edit Profile (Employee) Page
 
-![Alt edit-profile-employee page](https://drive.google.com/file/d/1k1oYsuLYbtex51LBHF1bVB_rwZRr9WmW/view?usp=drive_link)
+![FireShot Capture 040 - Edit Profile (Pekerja) - 127 0 0 1](https://github.com/harbanery/Portofolio-HireJob_Figma/assets/89146375/ecc2d055-0507-4ae6-9847-c887b7397df3)
 
 6. Edit Profile (Company) Page
 
-![Alt edit-profile company page](https://drive.google.com/file/d/16n7VSxiXf8l02DTIEHf9lgxSoFL5w0dQ/view?usp=drive_link)
+![FireShot Capture 041 - Edit Profile (Perusahaan) - 127 0 0 1](https://github.com/harbanery/Portofolio-HireJob_Figma/assets/89146375/a7009a9c-6011-4ddf-9335-cda6bfca2b14)
+
 
 ## Performance
 
