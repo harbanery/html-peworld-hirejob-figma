@@ -162,11 +162,9 @@ nav.navbar-custom .navbar-auth a {
 /* Navbar end */
 
 /* Container bootstrap for landing page */
-/* .container {
-  display: flex;
-  flex-direction: column;
+.container {
   padding: 1.4rem 6%;
-} */
+}
 
 .container-slider {
   padding: 100px 110px;
