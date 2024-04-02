@@ -269,7 +269,7 @@ nav.navbar-custom .navbar-auth a {
   height: auto;
 }
 
-.content-active > section .ad-box {
+.content-active > section .join-box {
   background-color: var(--secondary);
   width: 100%;
   display: flex;
@@ -280,14 +280,14 @@ nav.navbar-custom .navbar-auth a {
   transition: 0.4s;
 }
 
-.content-active > section .ad-box:hover {
+.content-active > section .join-box:hover {
   background-image: url(../img/bg-special.png);
   background-position: 0 95.3%;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.content-active > section .ad-box h1 {
+.content-active > section .join-box h1 {
   font-size: 36px;
   font-weight: 600;
   line-height: 56px;
@@ -295,14 +295,14 @@ nav.navbar-custom .navbar-auth a {
   color: var(--triartytext);
 }
 
-.content-active > section .ad-box button {
+.content-active > section .join-box button {
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
   padding: 24px;
 }
 
-.content-active > section .ad-box button:hover {
+.content-active > section .join-box button:hover {
   background-color: rgba(94, 80, 161, 0);
 }
 
