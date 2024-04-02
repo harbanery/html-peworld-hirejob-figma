@@ -1010,10 +1010,6 @@ ul.tag li.p-3 {
 }
 
 @media screen and (max-width: 1024px) {
-  main.bg-profile {
-    /* background: linear-gradient(0deg, #f6f7f8 77%, var(--secondary) 0%); */
-  }
-
   .container-home section .user-list {
     display: flex;
     flex-wrap: wrap;
@@ -1034,49 +1030,8 @@ ul.tag li.p-3 {
     gap: 10px;
   }
 
-  .container-home #pagination .arrow {
-    /* width: 58px;
-    height: 58px;
-    display: flex;
-    flex-basis: auto;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--primary);
-    color: var(--fourtytext);
-    border: 1px solid #e2e5ed;
-    border-radius: 4px; */
-  }
-
-  .container-home #pagination .arrow img {
-    /* width: 20px;
-    height: 20px; */
-  }
-
   .container-home #pagination ul {
     gap: 10px;
-  }
-
-  .container-home #pagination li {
-    /* list-style-type: none;
-    font-weight: 400;
-    font-size: 18px;
-    width: 58px;
-    height: 58px;
-    display: flex;
-    flex-basis: auto;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--primary);
-    color: var(--fourtytext);
-    border: 1px solid #e2e5ed;
-    border-radius: 4px; */
-  }
-
-  .container-home #pagination li.active {
-    /* font-weight: 700;
-    background-color: var(--secondary);
-    color: var(--triartytext);
-    border-radius: 4px; */
   }
 
   .container-profile {
@@ -1126,10 +1081,6 @@ ul.tag li.p-3 {
 }
 
 @media screen and (max-width: 768px) {
-  main.bg-profile {
-    /* background: linear-gradient(0deg, #f6f7f8 79%, var(--secondary) 0%); */
-  }
-
   .container-profile aside {
     width: 100%;
   }
@@ -1159,9 +1110,6 @@ ul.tag li.p-3 {
 }
 
 @media screen and (max-width: 670px) {
-  .container-home section .user-list .profile-home-desc {
-    /* width: 100%; */
-  }
   .container-home #search-bar-home .search-input {
     width: 50%;
   }
@@ -1417,8 +1365,6 @@ ul.tag li.p-3 {
 }
 
 @media screen and (max-width: 924px) {
-  .container-login {
-  }
   .container-login aside {
     display: none;
   }
